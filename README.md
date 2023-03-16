@@ -49,6 +49,7 @@ models.py: This file defines an SQLAlchemy ORM model named WeatherData which rep
 requirements.txt: lists all the required packages for the application
 README.md: this file
 Source.ag Assignment.postman_collection: It is collection of Postman's tests with required parameters.
+Drive Link for Postman API:https://drive.google.com/drive/folders/1LBjqAv9SbPps-EtLmRNN946mtQ9hoBHU?usp=sharing
 
 #Bonus Objective:
 Store the sensor data in a persistent way (i.e. not in-memory) so it's available between restarts
