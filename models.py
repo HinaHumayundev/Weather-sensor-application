@@ -1,6 +1,5 @@
 
 from sqlalchemy import  Column, Integer, Float, Enum, DateTime
-from sqlalchemy.ext.declarative import declarative_base
 from database import Base
 
 class WeatherData(Base):
