@@ -1,7 +1,7 @@
 #Flask Project
 This is a Python Flask project that serves as a starting point for building Sensor measurements API.
-
-#Database Setup
+**
+#Database Setup**
 -Install MySQLWorkbench
 -Create database connection on localhost with username: 'root', and password: 'Netsolpk1'
 -Create schema named 'may_data_dump'
@@ -35,12 +35,12 @@ CREATE TABLE `weather_data` (
 
 
 
-#Python Setup
+**#Python Setup**
 Install Python 3.x
 Install the required packages by running pip install -r requirements.txt
 Start the server by running python main.py
 Open a web browser and go to http://localhost:5000
-#Project Structure
+**#Project Structure**
 main.py: This file is the main entry point of the application which has all the endpoints defined
 dumps/: Is an empty folder where upload the zipped folder from local directory, unzip it and read data from
 it, after reading all the files and posting the data on server, we remove the may folder from dumps.
@@ -51,7 +51,7 @@ README.md: this file
 Source.ag Assignment.postman_collection: It is collection of Postman's tests with required parameters.
 Drive Link for Postman API:https://drive.google.com/drive/folders/1LBjqAv9SbPps-EtLmRNN946mtQ9hoBHU?usp=sharing
 
-#Bonus Objective:
+**#Bonus Objective:**
 Store the sensor data in a persistent way (i.e. not in-memory) so it's available between restarts
 Add authentication between the API and allow for different roles between the "write" endpoint and the "read" endpoints
 -Provide a way to ingest raw data in bulk
